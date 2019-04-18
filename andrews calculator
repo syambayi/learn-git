@@ -1,0 +1,88 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main(){
+
+ 
+   int a;
+   int b;
+   int addition;
+   int multiplication;
+   int division;
+   int substraction;
+   
+    
+ 	    cout<<" please enter your first number a "<<endl;
+ 	     cin>>a;
+ 	    cout<<"please enter your second number b"<<endl;
+ 	     cin>>b;
+ 	      
+ 	    switch(a)
+		 {
+		 case 1:
+ 	    
+ 	        if(a<b)
+ 	         {
+			  
+ 	         cout<<"correct value, please any key to continue"<<endl;
+ 	         }
+ 	        else
+ 	        {
+			 cout<<"error"<<endl;
+			}
+ 	     break;
+ 	     case 2:
+ 	      cout<<"b=a++"<<endl;
+ 	     break;
+ 	     default:
+ 	      cout<<"error for number values"<<endl;
+ 	    
+ 	    }
+ 	    switch (addition)
+   case 1:
+   	{
+   		if(addition)
+   		int sum=b+a;
+   		
+	   }
+	   switch(multiplication)
+	   case 1:
+	   	{
+	   		if(multiplication)
+	   		int product=b*a;
+		   }
+   	    switch(division)
+   	    case 1:
+   	    	{
+   	    		if(division)
+   	    		 float division=b/a;
+           
+            float remainder=b%a;
+             /*% of b/a*/
+   	    		
+			   }
+			switch(substraction)
+			 if(substraction)
+			 {
+			 int substraction=b-a;	
+			 }
+			 
+ 	
+         
+         
+
+            cout <<"sum is"<<sum<<endl;
+           cout << "the product"<< product<<endl;
+           cout<<"the subtraction is"<<substraction<<endl;
+          cout<< "the division is"<<division<<endl;
+         
+        cout <<"the remainder is "<<remainder<<endl;
+        
+        
+ 	       
+ 	    
+ 	     
+ 	
+   abort ();
+    }
